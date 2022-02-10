@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import App from './App.vue';
-import vuetify from './plugins/vuetify';
 import VueTheMask from 'vue-the-mask';
 import router from './routes';
 import money from 'v-money';
@@ -14,7 +13,7 @@ Vue.use(InputFacade);
 
 Vue.prototype.$bus = new Vue();
 new Vue({
-  vuetify,
+  
   router,
   render: (h) => h(App),
 }).$mount('#app');

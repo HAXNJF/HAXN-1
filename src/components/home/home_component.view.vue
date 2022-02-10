@@ -1,22 +1,192 @@
 <template>
-  <section class="home">
     <div class="container">
-      <h1 class="tittle">Antecipação<br> <span>Saque-Aniversário</span></h1>
-      <p class="container-text">Antecipe você mesmo seu saldo do FGTS 100% On-line.</p>
-      <img class="imagemFlat" src="../../assets/flatArt.png" alt="dois_caras_apertando_as_mãos">
+      <a name="home"></a>
+      <div class="info">
+        <h1 class="tittle">Multiple<br> suas vendas<br> <span>para o governo!</span></h1>
+        <p class="text">Seu departamento de licitação completo, tercerizado e automatizado do mercado!</p>
+        <div class="buttons">
+          <select class="selectNew" v-model="local">
+            <option disabled value="">Escolha a unidade mais próxima</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Juiz de Fora">Juiz de Fora</option>
+          </select>
+          <a class="linkButton" :href="whatsapp">
+            <img class="iconWhats" src="../../assets/whatsapp.png" alt="whatsapp-icon">
+          Contate nos</a>
+        </div>
+      </div>
+      <img class="imagemFlat" src="../../assets/leilao.png" alt="dois_caras_apertando_as_mãos">
     </div>
-  </section>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'Home',
+    data() {
+        return {
+            local: '',
+            whatsapp: '',
+    };
+  },
+  watch:{
+    local(){
+      console.log(this.local);
+      if(this.local=="Rio de Janeiro"){
+        this.whatsapp = "https://www.wppredirect.tk/go/?p=5524999376768&m=";
+      }else{
+        this.whatsapp = "https://www.wppredirect.tk/go/?p=5524999376768&m=";
+      }
+    }
+  },
+}
 </script>
 
-<style scoped>
+<style>
+.iconWhats{
+  margin-right: 5px;
+}
+.text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* border-radius: 0px 0px 42px 42px; */
+  }
+  .info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+.selectNew{
+  margin-bottom: 5px;
+}
+.linkButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #08357C;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  box-shadow: 0px 3.15551px 31.5551px rgba(231, 234, 238, 0.07);
+  width: 180px;
+  height: 60px;
+  border-radius: 0px 41px 41px 0px;
+  text-decoration: none;
+}
 .imagemFlat {
-  width: 324px;
-  height: 316px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100rem;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1340px){
+  .imagemFlat{
+    width: 80rem;
+  }
+}@media (max-width: 1240px){
+  .imagemFlat{
+    width: 70rem;
+  }
+}
+@media (max-width: 1080px){
+  html{
+    font-size: 50%;
+  }
+  .imagemFlat{
+    width: 60rem;
+  }
+}
+@media (max-width: 986px){
+  .container{
+    flex-direction: column;
+  }
+  .tittle{
+    text-align: center;
+  }
+}
+@media (max-width: 560px){
+  .imagemFlat{
+    width: 50rem;
+  }
+  .buttons{
+    flex-direction: column;
+    align-items: center;
+  }
+  .linkButton{
+    border-radius: 20px;
+    width: 350px;
+  }
+  .selectNew{
+    border-radius: 20px;
+    width: 350px;
+  }
+    .tittle{
+    text-align: center;
+  }
+}
+@media (max-width: 425px){
+  html{
+    font-size: 50%;
+  }
+  .imagemFlat{
+    width: 50rem;
+  }
+}
+@media (max-width: 400px){
+  .imagemFlat{
+    width: 45rem;
+}
+}
+@media (max-width: 360px){
+  html{
+    font-size: 40%;
+  }
+  .imagemFlat{
+    width: 45rem;
+  }
+  .buttons{
+    flex-direction: column;
+  }
+  .linkButton{
+    font-family: Roboto;
+    background-color: #08357C;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 300px;
+  }
+  .selectNew{
+    border-radius: 20px;
+    width: 300px;
+  }
+  .tittle{
+    text-align: center;
+  }
+}
+@media (max-width: 360px){
+  .imagemFlat{
+    width: 40rem;
+}
 }
 </style>

@@ -1,20 +1,47 @@
 <template>
-    <section class="rate">
-            <h1 class="tittle">O que estão dizendo <br> <span>sobre nós?</span></h1>
-            <p class="container-text">Avaliações do nosso serviço na Apple Store e Google Play.</p>
-      <div class="containerRate">
-            <div class="img">
-                <img class="rateImg" height="350px" width="320px" src="../../assets/family.png" alt="">
-            </div>
-            <div class="client-rate">
-                <p class="clientComment">Com o dinheiro do empréstimo consegui fazer uma viagem maravilhosa com a familia!</p>
-                <div class="flex space-between">
-                    <p class="client-name">Sérgio Augusto</p>
-                    <img class="stars" src="../../assets/stars.png" alt="">
-                </div>
-            </div>
+    <div class="rate">
+      <a name="rate"></a>
+            <h1 class="tittle">O que estão dizendo <span>sobre nós?</span></h1>
+            <p class="text">Avaliações do nosso serviço na Apple Store e Google Play.</p>
+      <div class="gridRate">
+        <div class="containerRate">
+              <div class="img">
+                  <img class="rateImg" height="350px" width="320px" src="../../assets/family.png" alt="">
+              </div>
+              <div class="client-rate">
+                  <p class="clientComment">Muito Bom</p>
+                  <div class="flex space-between">
+                      <p class="client-name">Sérgio Augusto</p>
+                      <img class="stars" src="../../assets/stars.png" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="containerRate">
+              <div class="img">
+                  <img class="rateImg" height="350px" width="320px" src="../../assets/family.png" alt="">
+              </div>
+              <div class="client-rate">
+                  <p class="clientComment">Muito Bom</p>
+                  <div class="flex space-between">
+                      <p class="client-name">Sérgio Augusto</p>
+                      <img class="stars" src="../../assets/stars.png" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="containerRate">
+              <div class="img">
+                  <img class="rateImg" height="350px" width="320px" src="../../assets/family.png" alt="">
+              </div>
+              <div class="client-rate">
+                  <p class="clientComment">Muito Bom</p>
+                  <div class="flex space-between">
+                      <p class="client-name">Sérgio Augusto</p>
+                      <img class="stars" src="../../assets/stars.png" alt="">
+                  </div>
+              </div>
+          </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -28,14 +55,20 @@ export default {
     border-radius: 20px;
 }
 
+.gridRate{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
 .rate{
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .client-rate {
-  background: linear-gradient(to right, #11bb77 6px, #ffffff 6px);
+  background: linear-gradient(to right, #08357C 6px, #ffffff 6px);
   width: 300px;
   height: fit-content;
   padding: 6px 10px 0px 18px;
@@ -52,6 +85,7 @@ export default {
   justify-content: center;
   align-items: center;
   height: fit-content;
+  width: fit-content;
 }
 .img {
   text-align: center;
@@ -78,5 +112,21 @@ export default {
     width: 60px;
     height: 10px;
     align-self: center;
+}
+
+@media (max-width: 1040px){
+    .gridRate{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 700px){
+    .gridRate{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 340px){
+  .rateImg{
+    width: 280px;
+  }
 }
 </style>

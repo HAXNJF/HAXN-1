@@ -1,25 +1,20 @@
 <template>
     <section class="container">
-          <h1 class="tittle">Quem pode pegar <br>o <span>saldo do FGTS</span><br> como empréstimo?</h1>
-          <p class="container-text">Todo trabalhador brasileiro com saldo na conta do FGTS pode obter esse benefício.</p>
-          <!-- <p class="container-text">O empréstimo consignado FGTS foi feito para o cidadão brasileiro enfrentar esse momento desafiador.</p>
-          <p class="container-text">Um crédito de fácil acesso e com as menores taxas.</p> -->
-         <ul class="benefits">
+        <ul class="benefits">
             <li>
-              <img class="iconPng" src="../../assets/money-confirm.png">
+              <img class="iconPng" src="../../assets/icon1.png">
+              <h1>Atendimento<br>Personalizado</h1>
               <p class="text-benefits">Dinheiro na sua conta no dia<br> seguinte à contratação</p>
             </li>
            <li>
-             <img class="iconPng" id="trending-down-img" src="../../assets/trending-down.png">
-             <p class="text-benefits">Crédito com as menores<br> taxas do mercado</p>
+             <img class="iconPng" id="trending-down-img" src="../../assets/icon2.png">
+             <h1>Estratégias<br>Relevantes</h1>
+             <p class="text-benefits">Mais de 70 milhões<br> de contratos homologados.</p>
            </li>
            <li>
-             <img class="iconPng" src="../../assets/check-circle.png">
+             <img class="iconPng" src="../../assets/icon3.png">
+             <h1>Sem Mensalidade</h1>
              <p class="text-benefits">Pagamentos debitados direto<br> da sua conta do FGTS</p>
-           </li>
-           <li>
-             <img class="iconPng" src="../../assets/mouse.jpg">
-             <p class="text-benefits">Contratação em poucos cliques,<br> tudo 100% digital</p>
            </li>
          </ul>
     </section>
@@ -29,18 +24,50 @@
 </script>
 
 <style scoped>
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: auto;
+    padding: 30px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 36px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    /* border-radius: 0px 0px 42px 42px; */
+}
+
 .iconPng{
   padding: 10px;
 }
 
+h1{
+  color: #08357C;
+  text-align: center;
+}
+
 .benefits {
+  display: flex; 
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 986px){
+  .benefits{
+    flex-direction: column;
+}
+}
+
+li{
   display: flex;
   flex-direction: column;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  margin-top: 40px;
+  align-items: center;
+  padding: 15px;
 }
+
 .text-benefits {
   font-style: normal;
   font-weight: normal;
@@ -50,6 +77,5 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
-
 
 </style>

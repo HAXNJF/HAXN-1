@@ -1,43 +1,36 @@
 <template>
     <div class="content">
-      <TutorialModal :info="buttonActive" @link="clickLink"/>
-      <div class="line"></div>
+      <div class="line"></div> 
       <Home/>
-      <div class="line"></div>
-      <Tutorial @link="clickLink"/>
-      <div class="line"></div>
       <Benefits/>
+      <div class="line"></div>
+      <About/>
       <div class="line"></div>
       <Questions/>
       <div class="line"></div>
-      <CarouselBox/>
-      <!-- <div class="line"></div>
-      <Rating/> -->
+      <Plans/>
+      <div class="line"></div>
+      <Rating/>
     </div>
 </template>
 
 <script>
 import Home from '../home/home_component.view';
-import Tutorial from '../tutorial/tutorial_component.view';
-import TutorialModal from '../tutorial-modal/tutorial-modal_component.view';
+import About from '../about/about_component.view';
 import Benefits from '../benefits/benefits_component.view';
-import CarouselBox from '../carousel-box/carousel-box_component.view';
+import Plans from '../plans/plans_component.view';
 import Questions from '../questions/questions_component.view';
-// import Rating from '../rating/rating_component.view';
-import Modal from '../modal/modal_component.view';
-
+import Rating from '../rating/rating_component.view';
 
 export default {
     name: 'Content',
     components: {
-    Modal,
-    Tutorial,
-    TutorialModal,
+    About,
     Home,
+    Plans,
     Benefits,
-    CarouselBox,
     Questions,
-    // Rating,
+    Rating,
   },
   data() {
     return {
@@ -61,14 +54,23 @@ export default {
 * {
   box-sizing: border-box;
 }
-.content{
-  padding-top: 95px;
-  padding-bottom: 100px;
-}
 .line {
-  margin: auto;
-  max-width: 302px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 1080px;
   height: 1px;
-  background: rgba(0, 0, 0, 0.2);
+  opacity: 0.2;
+  background-color: black;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 90%;
+  max-width: 1440px;
 }
 </style>
