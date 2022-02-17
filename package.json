@@ -1,5 +1,5 @@
 {
-  "name": "galwan-backoffice",
+  "name": "haxn",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -25,6 +25,8 @@
   "dependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
     "@vue/cli-service": "~4.3.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
     "axios": "^0.19.2",
     "connect-history-api-fallback": "^1.6.0",
     "link-module-alias": "^1.2.0",
