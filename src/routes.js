@@ -1,7 +1,7 @@
 import VueRouter from 'vue-router';
 import Vue from 'vue';
-import Home from '$pages/home/home_page.view.vue';
-import PageNotFound from '$pages/not-found/not-found_page.view.vue';
+import Home from './pages/home/home_page.view.vue';
+import PageNotFound from './pages/not-found/not-found_page.view.vue';
 import UrlProcessor from './middlewares/router_guardian/chain_before/UrlProcessor';
 
 Vue.use(VueRouter);

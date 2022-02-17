@@ -6,8 +6,8 @@
       <div v-show="questionDescription" class="answer">
         <div class="questions-inside-container">
           <h1>Teste</h1>
-          <p></p>
-        </div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt explicabo in minus nostrum magnam illum quis? Consequuntur blanditiis, voluptates quo atque repellendus sit molestias, vitae minus reiciendis, tempora ex? Deserunt?
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt explicabo in minus nostrum magnam illum quis? Consequuntur blanditiis, voluptates quo atque repellendus sit molestias, vitae minus reiciendis, tempora ex? Deserunt?</p>
+        </div>
       </div>
     </div>
 </template>
@@ -45,6 +45,12 @@ export default {
   margin: 10px 0;
 }
 
+  #question:hover {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    background-color: white;
+    transition: all 0.3s;
+  }
 #container-question {
   display: flex;
   flex-direction: column;
@@ -61,7 +67,7 @@ export default {
   display: flex;
   justify-content: center;
   align-content: center;
-  background: linear-gradient(to right, #08357C 6px, #ffffff 6px);
+  background: linear-gradient(to right, #123274 6px, #ffffff 6px);
   width: 90%;
   height: 56px;
   padding: 6px 15.99px 6px 19px;
@@ -97,7 +103,7 @@ export default {
   background: linear-gradient(
       to right,
       white 6px,
-      #08357C 6px
+      #123274 6px
   );
 }
 

@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Loading from '$components/loading/loading_component.view';
-import Navigation from '$components/navigation/navigation_component.view';
-import Content from '$components/content/content_component.view.vue';
-import Footer from '$components/footer/footer_component.view.vue';
+import Loading from './components/loading/loading_component.view';
+import Navigation from './components/navigation/navigation_component.view';
+import Content from './components/content/content_component.view.vue';
+import Footer from './components/footer/footer_component.view.vue';
 
 export default {
   components: {

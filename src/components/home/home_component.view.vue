@@ -34,7 +34,7 @@ export default {
       if(this.local=="Rio de Janeiro"){
         this.whatsapp = "https://www.wppredirect.tk/go/?p=5524999376768&m=";
       }else{
-        this.whatsapp = "https://www.wppredirect.tk/go/?p=5524999376768&m=";
+        this.whatsapp = "https://www.wppredirect.tk/go/?p=3230171537&m=";
       }
     }
   },
@@ -76,7 +76,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #08357C;
+  background-color: #123274;
   font-family: Manrope;
   font-style: normal;
   font-weight: 500;
@@ -88,6 +88,9 @@ export default {
   height: 60px;
   border-radius: 0px 41px 41px 0px;
   text-decoration: none;
+}
+.linkButton:hover{
+  background-color: #1f4ba5;
 }
 .imagemFlat {
   display: flex;
@@ -166,7 +169,7 @@ export default {
   }
   .linkButton{
     font-family: Roboto;
-    background-color: #08357C;
+    background-color: #123274;
     font-style: normal;
     font-weight: bold;
     font-size: 1.9rem;

@@ -68,7 +68,7 @@ export default {
   justify-content: center;
 }
 .client-rate {
-  background: linear-gradient(to right, #08357C 6px, #ffffff 6px);
+  background: linear-gradient(to right, #123274 6px, #ffffff 6px);
   width: 300px;
   height: fit-content;
   padding: 6px 10px 0px 18px;

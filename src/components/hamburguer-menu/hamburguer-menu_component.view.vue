@@ -1,6 +1,6 @@
 <template>
     <div id="navigation" :class="changeMenu">
-        <img class="logoWhite" src="../../assets/logo-white.png" alt="logo-white">
+        <img class="logoWhite" src="../../assets/logo.png" alt="logo-white">
         <ul class="menu-itens">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
@@ -25,13 +25,16 @@ export default {
     width: 24.0rem;
 }
 #navigation
-{
-    position: fixed;
+{   
     top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     right: -100%;
     width: 100%;
     height: 100vh;
-    background: #08357C;
+    background: #123274;
     z-index: -2;
     display: grid;
     place-items: center;
@@ -63,7 +66,7 @@ export default {
 
 .menu-itens li a:hover
 {
-    color: #08357C;
+    color: #123274;
     background-color: white;
     padding: 20px;
 }

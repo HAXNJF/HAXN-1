@@ -44,7 +44,7 @@
 }
 
 h1{
-  color: #08357C;
+  color: #123274;
   text-align: center;
 }
 

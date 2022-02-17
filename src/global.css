@@ -13,7 +13,7 @@ body {
   }
 
   header{
-    background-color: #08357C;
+    background-color: #123274;
 }
 .app{
     display: flex;
@@ -23,7 +23,7 @@ body {
   }
 
   .tittle span {
-    color: #08357C;
+    color: #123274;
   }
 
   .tittle {
@@ -49,13 +49,20 @@ body {
 
   button{
     font-family: Roboto;
-    background-color: #08357C;
+    background-color: #123274;
     font-style: normal;
     font-weight: bold;
     font-size: 1.9rem;
     line-height: 2.2rem;
     text-align: center;
     color: #FFFFFF;
+  }
+
+  button:hover {
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    background-color: white;
+    transition: all 0.3s;
   }
 
 
@@ -65,7 +72,7 @@ select{
     background: #ffffff;
     color: #000000;
     opacity: 0.5;
-    border: 3px solid #08357C;
+    border: 3px solid #123274;
     box-sizing: border-box;
     box-shadow: 0px 13px 24px rgba(0, 0, 0, 0.2);
     /* border-radius: 15px; */

@@ -68,4 +68,7 @@ export default {
   text-decoration-line: underline;
   color: #3877bb;
 }
+.linkQuestions:hover{
+  color: #121212;
+}
 </style>

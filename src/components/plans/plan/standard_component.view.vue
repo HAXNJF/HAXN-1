@@ -93,7 +93,7 @@ export default {
     justify-content: center;
     width: 406px;
     height: fit-content;
-    background: #1C1E53;
+    background: #0b1742;
     border-radius: 12px;
 }
 .price{
@@ -154,7 +154,7 @@ export default {
     align-items: center;
     width: 254px;
     height: 64px;
-    background: #FCD980;
+    background: #c4aa60;
     color: black;
     border-radius: 41px;
     }
@@ -164,4 +164,8 @@ export default {
             height: fit-content;
         }
     }
+    .verMais:hover{
+    background-color: #6b5f3d;
+    color: white;
+}
 </style>

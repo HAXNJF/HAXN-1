@@ -1,6 +1,6 @@
 <template>
     <div class="loading-screen">
-        <img class="logoIcon" src="../../assets/logo-white.png" alt="loading">
+        <img class="logoIcon" src="../../assets/logo.png" alt="loading">
     </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
-    background: #08357C;
+    background: #123274;
     height: 100%;
     width: 100%;
     display: flex;

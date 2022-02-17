@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <img class="logoWhite" src="../../assets/logo-white.png" alt="logo-white">
+        <img class="logoWhite" src="../../assets/logo.png" alt="logo-white">
         <ul class="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre Nós</a></li>

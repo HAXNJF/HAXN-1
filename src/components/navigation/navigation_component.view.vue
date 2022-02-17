@@ -2,7 +2,7 @@
     <header class="navigation">
         <div class="headerContainer">
             <a href="#" class="logo">
-                <img class="logo" alt="Logo" src="../../assets/logo-white.png"/>
+                <img class="logo" alt="Logo" src="../../assets/logoHorizontal.png"/>
             </a>
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
@@ -72,7 +72,7 @@ export default {
 
 header{  
     position: fixed;
-    background-color: #08357C;
+    background-color: #123274;
     display: flex;
     justify-content: center;
     top: 0;
@@ -91,8 +91,7 @@ header{
 }
 
 .logo{
-    width: 80px;
-    margin-left: 2%;
+    width: 220px;
 }
 
 header #menu-btn
