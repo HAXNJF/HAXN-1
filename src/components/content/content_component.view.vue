@@ -1,16 +1,22 @@
 <template>
     <div class="content">
+      <a name="home"></a>
       <div class="line"></div> 
       <Home/>
+      <a name="benefits"></a>
       <Benefits/>
+      <a name="about"></a>
       <div class="line"></div>
       <About/>
       <div class="line"></div>
-      <Questions/>
-      <div class="line"></div>
+      <a name="plans"></a>
       <Plans/>
+      <a name="rate"></a>
       <div class="line"></div>
       <Rating/>
+      <a name="question"></a>
+      <div class="line"></div>
+      <Questions/>
     </div>
 </template>
 

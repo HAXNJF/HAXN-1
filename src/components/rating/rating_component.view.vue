@@ -1,8 +1,7 @@
 <template>
     <div class="rate">
-      <a name="rate"></a>
-            <h1 class="tittle">O que estão dizendo <span>sobre nós?</span></h1>
-            <p class="text">Avaliações do nosso serviço na Apple Store e Google Play.</p>
+      <h1 class="tittle">O que estão dizendo <span>sobre nós?</span></h1>
+      <p class="text">Avaliações do nosso serviço na Apple Store e Google Play.</p>
       <div class="gridRate">
         <div class="containerRate">
               <div class="img">

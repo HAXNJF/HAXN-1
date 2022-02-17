@@ -1,6 +1,5 @@
 <template>
   <section class="frequent-questions">
-    <a name="question"></a>
     <h1 class="tittle"><span>Perguntas</span> Frequentes</h1>
     <Question/>
     <Question/>

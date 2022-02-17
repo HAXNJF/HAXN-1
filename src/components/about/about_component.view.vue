@@ -1,6 +1,5 @@
 <template>
     <div class="about">
-        <a name="about"></a>
         <div class="cont1">
         <h1 class="tittle">Sobre <span>nós</span></h1>
         <p class="text">A empresa de tecnologia e serviços agregados que desenvolveu um sistema que muda completamente a forma com que as empresas privadas negociam com entes públicos, impactando radicalmente o mercado de vendas governamentais.

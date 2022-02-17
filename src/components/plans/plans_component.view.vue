@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-        <a name="plans"></a>
         <h1 class="tittle">Nossos <span>Planos</span></h1>
         <p class="text">Única plataforma integrada, completa e
         automatizada do mercado.</p>
