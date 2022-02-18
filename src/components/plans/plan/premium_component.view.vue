@@ -43,6 +43,26 @@
                 <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
                 <p class="topicText">Análise de Edital</p>
             </div>
+            <div class="topic" v-show="active">
+                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+                <p class="topicText">Participação de Lançes</p>
+            </div>
+            <div class="topic" v-show="active">
+                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+                <p class="topicText">Acompanhamento de sessão pública</p>
+            </div>
+            <div class="topic" v-show="active">
+                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+                <p class="topicText">Acompanhamento da homologação do processo licitatório</p>
+            </div>
+            <div class="topic" v-show="active">
+                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+                <p class="topicText">Assessoria jurídica;</p>
+            </div>
+            <div class="topic" v-show="active">
+                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+                <p class="topicText">Assessoria contábil;</p>
+            </div>
         <div class="buttonShow">
             <button 
             v-show="!active" 
