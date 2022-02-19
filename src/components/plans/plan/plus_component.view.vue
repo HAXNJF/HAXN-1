@@ -132,10 +132,11 @@ export default {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
+    text-align: center;
 }
 .pointer{
     margin-top: 2px;
@@ -154,11 +155,10 @@ export default {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 28px;
     color: #FFFFFF;
 }
-
 .verMais{
     margin-top: 20px;
     margin-bottom: 40px;
@@ -177,7 +177,6 @@ export default {
             height: fit-content;
         }
     }
-
     .verMais:hover{
     background-color: #6b5f3d;
     color: white;

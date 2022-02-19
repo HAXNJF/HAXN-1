@@ -23,7 +23,7 @@ Caixa Econômica Federal; Petronect; Mercado Eletrônico, NIMBI; Bling; Mercado 
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Análise de risco (análise completa de risco de pagamento do órgão);</p>
         </div>
-        <div class="topic" v-show="active">
+        <div class="topic" >
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Elaboração e Cadastramento de Proposta Comercial</p>
         </div>
@@ -35,7 +35,7 @@ Caixa Econômica Federal; Petronect; Mercado Eletrônico, NIMBI; Bling; Mercado 
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Análise de Concorrência/Mercado</p>
         </div>
-        <div class="topic">
+        <div class="topic" v-show="active">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Análise de Edital</p>
         </div>
@@ -120,10 +120,11 @@ export default {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
+    text-align: center;
 }
 .pointer{
     margin-top: 2px;
@@ -142,7 +143,7 @@ export default {
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 28px;
     color: #FFFFFF;
 }
