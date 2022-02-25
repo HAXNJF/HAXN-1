@@ -47,7 +47,7 @@ export default {
 }
 .text{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 .buttons{
   display: flex;
