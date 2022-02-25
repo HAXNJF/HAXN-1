@@ -32,9 +32,9 @@ export default {
     local(){
       console.log(this.local);
       if(this.local=="Rio de Janeiro"){
-        this.whatsapp = "https://www.wppredirect.tk/go/?p=5524999376768&m=";
+        this.whatsapp = "https://www.wppredirect.tk/go/?p=552130305567&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Especializada%20em%20licita%C3%A7%C3%B5es%20e%20Mercado%20B2B.";
       }else{
-        this.whatsapp = "https://www.wppredirect.tk/go/?p=3230171537&m=";
+        this.whatsapp = "https://www.wppredirect.tk/go/?p=553230171537&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Especializada%20em%20licita%C3%A7%C3%B5es%20e%20Mercado%20B2B.";
       }
     }
   },

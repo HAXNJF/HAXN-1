@@ -33,7 +33,7 @@ export default {
     align-items: center;
     right: -100%;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background: #123274;
     z-index: -2;
     display: grid;
