@@ -2,7 +2,7 @@
     <div class="container">
       <a name="home"></a>
       <div class="info">
-        <h1 class="tittle">Multiple<br> suas vendas<br> <span>para o governo!</span></h1>
+        <h1 class="tittle">Seu departamento<br><span> de licitações completo</span> <br>e terceirizado.</h1>
         <p class="text">Seu departamento de licitação completo, tercerizado e automatizado do mercado!</p>
         <div class="buttons">
           <select class="selectNew" v-model="local">

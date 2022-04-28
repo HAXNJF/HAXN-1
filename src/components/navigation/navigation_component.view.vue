@@ -10,7 +10,7 @@
                 <li><a href="#plans">Planos</a></li>
                 <li><a href="#rate">Avaliações</a></li>
                 <li><a href="#question">Perguntas</a></li>
-                <li class="phone"><a href=""><img class="iconPhone" src="../../assets/phone.png" alt="phone-icon">0800</a></li>
+                <li class="phone"><a href=""><img class="iconPhone" src="../../assets/phone.png" alt="phone-icon">0800.888.8186</a></li>
             </ul>
             <div id="menu-btn" :class="classMenu" @click="toggle">
                 <div class="menu-btn_burguer"></div>

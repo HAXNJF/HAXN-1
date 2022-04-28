@@ -12,8 +12,8 @@
       <a name="plans"></a>
       <Plans/>
       <a name="rate"></a>
-      <div class="line"></div>
-      <Rating/>
+      <!-- <div class="line"></div>
+      <Rating/> -->
       <a name="question"></a>
       <div class="line"></div>
       <Questions/>
@@ -26,7 +26,7 @@ import About from '../about/about_component.view';
 import Benefits from '../benefits/benefits_component.view';
 import Plans from '../plans/plans_component.view';
 import Questions from '../questions/questions_component.view';
-import Rating from '../rating/rating_component.view';
+// import Rating from '../rating/rating_component.view';
 
 export default {
     name: 'Content',
@@ -36,7 +36,7 @@ export default {
     Plans,
     Benefits,
     Questions,
-    Rating,
+    // Rating,
   },
   data() {
     return {

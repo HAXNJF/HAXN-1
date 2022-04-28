@@ -2,9 +2,14 @@
     <div class="about">
         <div class="cont1">
         <h1 class="tittle">Sobre <span>nós</span></h1>
-        <p class="text">A empresa de tecnologia e serviços agregados que desenvolveu um sistema que muda completamente a forma com que as empresas privadas negociam com entes públicos, impactando radicalmente o mercado de vendas governamentais.
-
-Usamos as melhores tecnologias e Data Centers disponíveis, garantimos alta disponibilidade, segurança e velocidade junto a um serviço de ponta, onde o foco é aumentar as suas vendas e facilitar o seu dia a dia.</p>
+        <p class="text">A HAXN é uma empresa de tecnologia e serviços agregados
+        especializada em assessoria de licitações públicas, que muda completamente
+        a forma com que as empresas privadas negociam com setores públicos, impactando
+        radicalmente o mercado de vendas governamentais.  Usamos as melhores tecnologias
+        e Data Centers disponíveis. Garantimos alta disponibilidade, segurança e
+        velocidade junto a um serviço de ponta, onde o foco é aumentar as suas vendas
+        governamentais e facilitar o seu dia a dia, sendo o seu departamento de licitações
+        completo e terceirizado.</p>
         </div>
         <video class="imagemTeam" controls>
             <source  src="../../assets/video.mp4" type="video/mp4">

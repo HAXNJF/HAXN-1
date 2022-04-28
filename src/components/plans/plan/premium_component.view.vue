@@ -1,69 +1,30 @@
 <template>
     <div class="plan">
-        <h2 class="planTittle">Premium</h2>
-        <h1 class="price">R$3499</h1>
-        <p class="planText">Única plataforma integrada, completa e
-        automatizada do mercado.</p>
+        <h2 class="planTittle">Standard</h2>
+        <h1 class="price">R$ 4.490,00</h1>
+        <p class="planText">Limite de faturamento em contratos<br> <span style="font-weight: bold">R$ 10.000.000,00</span> ao ano.</p>
         <div class="allTopic">
-            <div class="topic">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Com direito aos itens do Plus e Standard</p>
-            </div>
-            <div class="topic">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Elaboração de e-mail específico para acompanhamento de pregões e empenhos; Grupo WhatsApp Empresarial para comunicação e
-    informativos;</p>
-            </div>
-            <div class="topic">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Recolhimento de documento e apontamento de pendências fiscais  e legais;</p>
-            </div>
-            <div class="topic">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Gerenciamento de cadastro nos portais de compras do Governo e Privado (B2B); SICAF; Portal de Compras Públicas; Licitações-E;
-    Caixa Econômica Federal; Petronect; Mercado Eletrônico, NIMBI; Bling; Mercado Livre; Americanas; Magalu e diversos outros</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Análise de risco (análise completa de risco de pagamento do órgão);</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Elaboração e Cadastramento de Proposta Comercial</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Busca de oportunidades DIARIAMENTE</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Análise de Concorrência/Mercado</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Análise de Edital</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Participação de Lançes</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Acompanhamento de sessão pública</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Acompanhamento da homologação do processo licitatório</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Assessoria jurídica;</p>
-            </div>
-            <div class="topic" v-show="active">
-                <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-                <p class="topicText">Assessoria contábil;</p>
-            </div>
-        <div class="buttonShow">
+        <div class="topic">
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Com direito aos itens do plano Standard e Plus;</p>
+        </div>
+        <div class="topic">
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Elaboração de peça recursal;</p>
+        </div>
+        <div class="topic">
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Elaboração de contrarrazões;</p>
+        </div>
+        <div class="topic" >
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Elaboração de peça de reequilíbrio de preço do contrato;</p>
+        </div>
+        <div class="topic" >
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Comissionamento de 8% no êxito se ultrapassarmos o limite de faturamento;</p>
+        </div>
+        <!-- <div class="buttonShow">
             <button 
             v-show="!active" 
             @click="showMore" 
@@ -76,7 +37,7 @@
             class="verMais">
             ver menos
             </button>
-        </div>
+        </div> -->
     </div>
     </div>
 </template>
@@ -112,10 +73,12 @@ export default {
 }
 .plan{
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 406px;
+    padding: 20px 30px 30px 40px;
     height: fit-content;
     background: #0b1742;
     border-radius: 12px;
@@ -129,7 +92,6 @@ export default {
     color: #FFFFFF;
 }
 .planTittle{
-    padding-top: 20px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -139,8 +101,7 @@ export default {
 }
 .planText{
     padding-top: 8px;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin-bottom: 20px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -152,7 +113,6 @@ export default {
 }
 .pointer{
     margin-top: 2px;
-    padding-left: 48px;
     height: 24px;
 }
 .topic{
@@ -163,7 +123,6 @@ export default {
 }
 .topicText{
     padding-left: 8px;
-    padding-right: 48px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
