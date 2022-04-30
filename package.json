@@ -19,13 +19,14 @@
     "$model": "./src/model",
     "$pages": "./src/pages",
     "$services": "./src/services",
-    "$assets": "./src/assets",
-    "$business": "./src/business"
+    "$assets": "./src/assets"
+    
   },
   "dependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
-    "axios": "^0.19.2",
+    "@hapi/hapi": "^20.2.2",
+    "@vue/cli-plugin-babel": "^5.0.4",
+    "@vue/cli-service": "^5.0.4",
+    "axios": "^0.27.2",
     "connect-history-api-fallback": "^1.6.0",
     "link-module-alias": "^1.2.0",
     "lodash": "^4.17.20",
