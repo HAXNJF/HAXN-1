@@ -24,8 +24,8 @@ export default {
       questionDescription: false,
       moreQuestion: false,
       questions: {
-        tittle1: 'Como funcionam as licitações públicas? ',
-        tittle2: 'Quais documentos a minha empresa precisa para participar de licitações públicas?',
+        tittle1: 'O que é licitações públicas? ',
+        tittle2: 'Como participar de Licitações?',
         tittle3: 'Como funciona o pagamento dos contratos públicos?',
         tittle4: 'Não tenho capital de giro para iniciar minhas vendas, existe alguma alternativa?',
         tittle5: 'Sou microempreendedor, posso participar de licitações públicas?',
