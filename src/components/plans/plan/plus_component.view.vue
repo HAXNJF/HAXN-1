@@ -1,8 +1,8 @@
 <template>
     <div class="plan">
-        <h2 class="planTittle">Standard</h2>
+        <h2 class="planTittle">Plus</h2>
         <h1 class="price">R$2.490,00</h1>
-        <p class="planText">Limite de faturamento em contratos<br> <span style="font-weight: bold">R$ 2.500.000,00</span> ao ano.</p>
+        <p class="planText">Limite de faturamento em contratos<br> <span style="font-weight: bold">R$ 1.000.000,00</span> ao ano.</p>
         <div class="allTopic">
         <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
@@ -20,17 +20,26 @@
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Acompanhamento da adjudicação e homologação do processo licitatório;</p>
         </div>
-        <div class="topic" >
+        <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Acompanhamento do contrato após homologação;</p>
         </div>
         <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-            <p class="topicText">Análise de Concorrência/Mercado;</p>
+            <p class="topicText">Elaboração de peça recursal;</p>
         </div>
         <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-            <p class="topicText">Comissionamento de 5% no êxito se ultrapassarmos o limite de faturamento;</p>
+            <p class="topicText">Elaboração de contrarrazões;</p>
+        </div>
+
+        <div class="topic" >
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Elaboração de peça de reequilíbrio de preço do contrato;</p>
+        </div>
+        <div class="topic" >
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Comissionamento de 3.5% no êxito se ultrapassarmos o limite de faturamento;</p>
         </div>
         <!-- <div class="buttonShow">
             <button 
@@ -85,9 +94,9 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 406px;
-    padding: 20px 30px 30px 40px;
+    width: 500px;
     height: fit-content;
+    padding: 20px 30px 48px 60px;
     background: #0b1742;
     border-radius: 12px;
 }

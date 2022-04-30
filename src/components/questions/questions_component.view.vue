@@ -7,7 +7,6 @@
     <Question :tittle="questions.tittle4" :description="questions.description4"/>
     <Question :tittle="questions.tittle5" :description="questions.description5" v-show="moreQuestion"/>
     <Question :tittle="questions.tittle6" :description="questions.description6" v-show="moreQuestion"/>
-    <Question :tittle="questions.tittle7" :description="questions.description7" v-show="moreQuestion"/>
     <a @click="showMore" v-show="!moreQuestion" class="linkQuestions">Mais Perguntas</a>
     <a @click="showLess" v-show="moreQuestion" class="linkQuestions">Menos Perguntas</a>
   </section>
@@ -25,40 +24,38 @@ export default {
       questionDescription: false,
       moreQuestion: false,
       questions: {
-        tittle1: 'Como e feito o cálculo de limite de faturamento de cada plano?',
-        tittle2: 'O que é Empenho?',
-        tittle3: 'O que acontece se a minha empresa atingir o limite de faturamento do plano escolhido?',
-        tittle4: 'O comissionamento é cobrado em cima do valor bruto do contrato ou do valor da ordem de serviço? ',
-        tittle5: 'Como é pago o comissionamento?',
+        tittle1: 'Como funcionam as licitações públicas? ',
+        tittle2: 'Quais documentos a minha empresa precisa para participar de licitações públicas?',
+        tittle3: 'Como funciona o pagamento dos contratos públicos?',
+        tittle4: 'Não tenho capital de giro para iniciar minhas vendas, existe alguma alternativa?',
+        tittle5: 'Sou microempreendedor, posso participar de licitações públicas?',
         tittle6: 'Qual é a validade do plano?',
-        tittle7: 'Quem são nossos clientes ?',
-        description1: 'O limite de faturamento de cada plano é baseado sobre o valor das ordens de serviços (empenhos), não levando em conta o valor bruto do contrato fechados com entes públicos, pois pode haver diferença no valor total empenhados ao final do contrato.',
-        description2: 'O empenho é a etapa em que o governo reserva o dinheiro que será pago quando o bem for entregue ou o serviço concluído.',
-        description3: 'Quando exceder o limite de faturamento em contratos públicos obtidos com assessoria da HAXN Empreendimentos, iremos cobrar um comissionamento sobre o valor dos contratos que ultrapassarem o limite pré-estabelecido, referente ao plano escolhido.',
-        description4: 'O valor do comissionamento e baseado sobre o valor bruto do contrato, porém pago de acordo com os valores empenhados. Ou seja, somente em cima do valor efetivamente recebido e constante em sua NOTA FISCAL emitida.',
-        description5: 'O comissionamento é pago  quando o cliente receber o  valor do empenho em sua conta bancária.',
-        description6: 'Os nossos planos começam com uma validade mínima de 6 meses.',
-        description7: 'Projetos acrílicos CORTA-VIRUS – Ligue Grátis: 0800-591-1967 (cortavirus.com.br), Rezende Roriz Rezende Roriz | Incorporação e Construção, Uno vigilância UNO Segurança & Vigilância – Especializada em Segurança Patrimonial, Vigilância Armada e Desarmada com Expertise em Segurança para Eventos! (unoseguranca.com.br), DCO DCO Limpeza | Saúde e Bem-Estar, Libra https://www.libraservadministrativos.com.br/, Suprema https://www.supremaserv.com/, Seka Empreendimentos, ALDV, Sally Clean, Ecofarma, Almanac, Owl FIlms',
+        description1: 'Licitações públicas é um processo de compra governamental. Onde o governo anuncia o que quer comprar, você avalia o objeto os prazos e condições, cadastrando assim a sua proposta para aquele pregão. Vencendo a disputa é só aguardar o empenho (ordem de serviço) e entregar o produto.',
+        description2: 'Para participar de licitações públicas é necessário que a sua empresa esteja com as obrigações ficais e trabalhistas em dia. As principais certidões são as Certidões de regularidade fiscal da Receita Federal, negativa de débitos estaduais, negativa de débitos municipais, de regularidade do FGTS e negativa de débitos trabalhistas.',
+        description3: 'O governo tem um prazo de 30 dias úteis após a entrega do produto/serviço para realizar a quitação da nota fiscal. Porém na pratica o governo paga em até 15 dias úteis. A HAXN antes de entrar em qualquer proposta, faz uma analise de risco de pagamento do órgão, diminuindo os riscos para os nossos clientes.',
+        description4: 'O governo criou um programa de antecipação de recebíveis. O AntecipaGov foi desenvolvido com o objetivo de permitir que fornecedores usem seus contratos administrativos, como garantia para empréstimos e financiamentos em instituições financeiras credenciadas, pelo Ministério da Economia (ME).',
+        description5: 'Qualquer empresa devidamente registrada e com as suas obrigações fiscais e trabalhistas em dia, podem participar de processos licitatórios e ainda usufruir de benefícios estabelecidos na Lei 123 2006, tais como: Regularização tardia de algum documento fiscal com pendências; Direito de preferência, apelidado com “empate ficto”; Exclusividade nas licitações cujo valor seja de até R$80.000,00.',
+        description6: 'Nossos planos possuem validade de até 6 meses.',
       }
     }
   },
   methods: {
-        showMore(){
-            this.moreQuestion = true;
-        },
-        showLess(){
-            this.moreQuestion = false;
-        },
+    showMore(){
+      this.moreQuestion = true;
+    },
+    showLess(){
+      this.moreQuestion = false;
+    },
     changeActive(){
-            if(!this.questionDescription){
-                this.questionActive = 'active';
-                this.questionDescription = true;
-                }
-            else{
-                this.questionActive = '';
-                this.questionDescription = false;        
-                } 
-        },
+      if(!this.questionDescription){
+        this.questionActive = 'active';
+        this.questionDescription = true;
+        }
+      else{
+        this.questionActive = '';
+        this.questionDescription = false;        
+        } 
+    },
   },
 }
 </script>
@@ -73,8 +70,11 @@ export default {
   align-items: center;
 }
 
-
 .linkQuestions {
+  background: #123274;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;
   font-family: Nunito Sans;
@@ -83,10 +83,11 @@ export default {
   font-size: 18px;
   line-height: 160%;
   text-align: center;
-  text-decoration-line: underline;
-  color: #3877bb;
+  text-decoration: none;
+  color: white;
+  transition: 1s;
 }
 .linkQuestions:hover{
-  color: #121212;
+  background-color: #3877bb;
 }
 </style>

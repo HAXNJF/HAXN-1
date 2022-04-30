@@ -33,14 +33,11 @@ export default {
     return {
       items: [
         'Ética',
-        'Cooperativismo',
         'Responsabilidade social',
         'Empreendedorismo',
         'Excelência',
         'Respeito',
         'Transparência',
-        // 'Pró atividade',
-        // 'Parceria',
       ]
     }
   }

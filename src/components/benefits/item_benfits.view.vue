@@ -1,6 +1,8 @@
 <template>
     <div class="benefit-container">
-        <img class="iconPng" :src="require(`@/assets/${image}`)">
+        <div class="containerImage">
+            <img class="iconPng" :src="require(`@/assets/${image}`)">
+        </div>
         <h1 class="itemTittle">{{tittle}}</h1>
         <h3 class="itemSubtittle">{{subTittle}}</h3>
         <p class="itemDescription">{{description}}</p>

@@ -6,11 +6,12 @@
         <div class="allTopic">
         <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-            <p class="topicText">Recolhimento e atualização de documento de habilitação;</p>
+            <p class="topicText">Recolhimento e atualização de documentos de habilitação;</p>
         </div>
         <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-            <p class="topicText">Gerenciamento de cadastro nos portais de compras do Governo e Privado (B2B); SICAF; Portal de Compras Públicas; Licitações-E; Caixa Econômica Federal; Petronect; Mercado Eletrônico, NIMBI; </p>
+            <p class="topicText">Gerenciamento de cadastro nos portais de compras do Governo e Privado (B2B); Comprasnet
+; Portal de Compras Públicas; Licitações-E; Caixa Econômica Federal; Petronect; Mercado Eletrônico, NIMBI; </p>
         </div>
         <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
@@ -30,22 +31,12 @@
         </div>
         <div class="topic">
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-            <p class="topicText">Comissionamento de 3% no êxito se ultrapassarmos o limite de faturamento.</p>
+            <p class="topicText">Elaboração e cadastramento de proposta comercial;</p>
         </div>
-        <!-- <div class="buttonShow">
-            <button 
-            v-show="!active" 
-            @click="showMore" 
-            class="verMais">
-            ver mais
-            </button>
-            <button 
-            v-show="active" 
-            @click="showLess" 
-            class="verMais">
-            ver menos
-            </button>
-        </div> -->
+        <div class="topic">
+            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
+            <p class="topicText">Comissionamento de 2.5% no êxito se ultrapassarmos o limite de faturamento.</p>
+        </div>
     </div>
     </div>
 </template>
@@ -85,7 +76,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 406px;
+    width: 500px;
     padding: 20px 30px 30px 40px;
     height: fit-content;
     background: #0b1742;

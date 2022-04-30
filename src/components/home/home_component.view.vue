@@ -2,8 +2,15 @@
     <div class="container">
       <a name="home"></a>
       <div class="info">
-        <h1 class="tittle">Seu departamento<br><span> de licitações completo</span> <br>e terceirizado.</h1>
-        <p class="text">Seu departamento de licitação completo, tercerizado e automatizado do mercado!</p>
+        <div class="icons">
+          <a href="https://www.instagram.com/haxnempreendimentos/" class="link"><img src="@/assets/instagram.png" alt="" class="icon"></a>
+          <a href="https://www.twitter.com/haxnlicita" class="link"><img src="@/assets/twitter.png" alt="" class="icon"/></a>
+          <a href="https://www.facebook.com/haxnempreendimentos" class="link"><img src="@/assets/facebook.png" alt="" class="icon"></a>
+          <a href="https://www.youtube.com/channel/UCywU-tFndbG8SHlW3HfeHrA" class="link"><img src="@/assets/youtube.png" alt="" class="icon"></a>
+          <a href="https://www.linkedin.com/company/haxn/" class="link"><img src="@/assets/linkedin.png" alt="" class="icon"></a>
+        </div>
+        <h1 class="tittle">Multiplique<br> suas vendas<br> <span>para o governo!</span></h1>
+        <p class="text">Seu departamento de licitação completo e tercerizado!</p>
         <div class="buttons">
           <select class="selectNew" v-model="local">
             <option disabled value="">Escolha a unidade mais próxima</option>
@@ -30,7 +37,6 @@ export default {
   },
   watch:{
     local(){
-      console.log(this.local);
       if(this.local=="Rio de Janeiro"){
         this.whatsapp = "https://www.wppredirect.tk/go/?p=552130305567&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Especializada%20em%20licita%C3%A7%C3%B5es%20e%20Mercado%20B2B.";
       }else{
@@ -42,6 +48,16 @@ export default {
 </script>
 
 <style>
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  cursor: pointer;
+  padding-right: 15px;
+  width: 40px;
+  height: 40px;
+}
 .iconWhats{
   margin-right: 5px;
 }
@@ -77,7 +93,7 @@ export default {
   justify-content: center;
   align-items: center;
   background-color: #123274;
-  font-family: Manrope;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

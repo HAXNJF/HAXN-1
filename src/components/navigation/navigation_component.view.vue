@@ -8,7 +8,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
                 <li><a href="#plans">Planos</a></li>
-                <li><a href="#rate">Avaliações</a></li>
+                <li><a href="#icon">Clientes</a></li>
                 <li><a href="#question">Perguntas</a></li>
                 <li class="phone"><a href=""><img class="iconPhone" src="../../assets/phone.png" alt="phone-icon">0800.888.8186</a></li>
             </ul>

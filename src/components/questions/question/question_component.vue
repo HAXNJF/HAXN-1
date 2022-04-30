@@ -5,7 +5,7 @@
       </div>
       <div v-show="questionDescription" class="answer">
         <div class="questions-inside-container">
-          <p>{{description}}</p>
+          <p id="description">{{description}}</p>
         </div>
       </div>
     </div>
@@ -43,7 +43,13 @@ export default {
 </script>
 
 <style scoped>
-.questions-inside-container ul {
+#description {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 3rem;
+}
+.questions-inside-container{
   padding: 0;
 }
 

@@ -1,12 +1,10 @@
 <template>
     <div class="container">
         <h1 class="tittle">Nossos <span>Planos</span></h1>
-        <p class="text">Única plataforma integrada, completa e
-        automatizada do mercado.</p>
+        <p class="text">Seu departamento de licitação completo e tercerizado!</p>
         <div class="plans">
         <Standard/>
         <Plus/>
-        <Premium/>
         </div>
     </div>
 </template>
@@ -31,7 +29,7 @@ export default {
 }
 .plans{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
 }
