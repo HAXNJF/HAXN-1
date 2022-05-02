@@ -6,20 +6,20 @@
           <Item 
           tittle=""
           subTittle="Contratos Homologados."
-          description=" +15 milhões arrematados desde o inicio de nossa operação em  julho de 2020 "
+          description=" +50 milhões arrematados desde o inicio de nossa operação em  julho de 2020 "
           image="money.svg"
           />
           <Item 
           tittle=""
           subTittle="Processos Licitatorios."
-          description="+1350 processos licitatorios participados desde o inicio de nossa operação"
+          description="+1200 processos licitatorios participados desde o inicio de nossa operação"
           image="processo.svg"
           />
           <Item
           :list="items"
           tittle=""
           subTittle="Lucro Medio."
-          description="+83% das licitações que vencemos, nossos clientes obtiveram mais lucros do que esperado"
+          description="+80% das licitações que vencemos, nossos clientes obtiveram mais lucros do que esperado"
           image="analytic.svg"
           />
         </div>
