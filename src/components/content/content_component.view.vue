@@ -9,6 +9,9 @@
       <div class="line"></div>
       <About/>
       <div class="line"></div>
+      <a name="numeros"></a>
+      <numeros/>
+      <div class="line"></div>
       <a name="plans"></a>
       <Plans/>
       <a name="rate"></a>
@@ -36,6 +39,7 @@
 </template>
 
 <script>
+import Numeros from '../numeros/numeros_component.view.vue';
 import Home from '../home/home_component.view';
 import Icons from '../icons/icons_view.vue';
 import About from '../about/about_component.view';
@@ -52,6 +56,7 @@ export default {
     Plans,
     Benefits,
     Questions,
+    Numeros,
     Icons,
     // Rating,
   },

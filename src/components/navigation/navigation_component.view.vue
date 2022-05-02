@@ -10,6 +10,7 @@
                 <li><a href="#plans">Planos</a></li>
                 <li><a href="#icon">Clientes</a></li>
                 <li><a href="#question">Perguntas</a></li>
+                <li><a href="https://www.wppredirect.tk/go/?p=553230171537&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20franquia">Seja um Franqueado</a></li>
                 <li class="phone"><a href=""><img class="iconPhone" src="../../assets/phone.png" alt="phone-icon">0800.888.8186</a></li>
             </ul>
             <div id="menu-btn" :class="classMenu" @click="toggle">

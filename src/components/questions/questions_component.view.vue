@@ -24,7 +24,7 @@ export default {
       questionDescription: false,
       moreQuestion: false,
       questions: {
-        tittle1: 'O que é licitações públicas? ',
+        tittle1: 'O que são licitações públicas? ',
         tittle2: 'Como participar de licitações?',
         tittle3: 'Como funciona o pagamento dos contratos públicos?',
         tittle4: 'Não tenho capital de giro para iniciar minhas vendas, existe alguma alternativa?',
