@@ -5,21 +5,21 @@
         <div class="numeros">
           <Item 
           tittle=""
-          subTittle="Contratos Homologados."
-          description=" +50 milhões arrematados desde o inicio de nossa operação em  julho de 2020 "
+          subTittle="+50 milhões arrematados desde o inicio de nossa operação em  julho de 2020"
+          description=""
           image="money.svg"
           />
           <Item 
           tittle=""
-          subTittle="Processos Licitatorios."
-          description="+1200 processos licitatorios participados desde o inicio de nossa operação"
+          subTittle="+1200 processos licitatorios participados desde o inicio de nossa operação"
+          description=""
           image="processo.svg"
           />
           <Item
           :list="items"
           tittle=""
-          subTittle="Lucro Medio."
-          description="+80% das licitações que vencemos, nossos clientes obtiveram mais lucros do que esperado"
+          subTittle="+80% das licitações que vencemos, nossos clientes obtiveram mais lucros do que esperado"
+          description=""
           image="analytic.svg"
           />
         </div>
