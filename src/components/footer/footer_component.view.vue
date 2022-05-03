@@ -51,6 +51,7 @@ export default {
     margin-top: 40px;
     color: white;
     opacity: 0.3;
+    text-align: center;
 }
 .logoWhite{
     width: 200px;

@@ -104,6 +104,8 @@ header{
     font-style: normal;
     font-size: 16px;
     line-height: 32px;
+    width: 100%;
+    max-width: 500px;
 }
 .headerContainer{
     display: flex;
@@ -191,9 +193,17 @@ header #menu-btn::before
     header #menu-btn{
         display: flex;
     }
+    header{
+        height: 80px;
+    }
+    .headerContainer{
+        height: 80px;
+    }
     .menu{
         display: none;
     }
-
+    .lineBox{
+        display: none;
+    }
 }
 </style>
