@@ -97,6 +97,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .franchise{
     color: white;
     text-decoration: none;
@@ -108,6 +109,11 @@ header{
     width: 100%;
     max-width: 500px;
     text-align: center;
+}
+@media(max-width: 360px){
+ .franchise{
+     font-size: 12px;
+ }   
 }
 .headerContainer{
     display: flex;
