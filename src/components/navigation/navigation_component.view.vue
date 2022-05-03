@@ -6,17 +6,20 @@
             </a>
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#plans">Planos</a></li>
-                <li><a href="#icon">Clientes</a></li>
-                <li><a href="#question">Perguntas</a></li>
-                <li><a href="https://www.wppredirect.tk/go/?p=553230171537&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20franquia">Seja um Franqueado</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#perguntas">Perguntas</a></li>
                 <li class="phone"><a href=""><img class="iconPhone" src="../../assets/phone.png" alt="phone-icon">0800.888.8186</a></li>
             </ul>
             <div id="menu-btn" :class="classMenu" @click="toggle">
                 <div class="menu-btn_burguer"></div>
                 <HamburguerMenu :class="classMenu"/>
             </div>
+        </div>
+        <div class="lineBox">
+            <a class="franchise" href="https://www.wppredirect.tk/go/?p=553230171537&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20franquia">
+                Um novo jeito de empreender. Seja um Franqueado!
+            </a>
         </div>
     </header>
 </template>
@@ -78,9 +81,29 @@ header{
     justify-content: center;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 120px;
     z-index: 5;
     transition: 0.6s;
+}
+.lineBox{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 179, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.franchise{
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
 }
 .headerContainer{
     display: flex;
@@ -164,12 +187,13 @@ header #menu-btn::before
     background: white;
 }
 
-@media (max-width: 1015px){
+@media (max-width: 1250px){
     header #menu-btn{
         display: flex;
     }
     .menu{
         display: none;
     }
+
 }
 </style>

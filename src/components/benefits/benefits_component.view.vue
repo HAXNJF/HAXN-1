@@ -72,7 +72,10 @@ export default {
 
 @media (max-width: 986px){
   .benefits{
-    flex-direction: column;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+
 }
 }
 

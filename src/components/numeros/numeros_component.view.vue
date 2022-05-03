@@ -61,8 +61,6 @@ export default {
   padding: 10px;
 }
 
-
-
 .numeros {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
@@ -71,8 +69,10 @@ export default {
 
 @media (max-width: 986px){
   .numeros{
-    flex-direction: column;
-}
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
 }
 
 li{

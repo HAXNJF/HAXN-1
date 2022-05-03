@@ -5,22 +5,17 @@
       <Home/>
       <a name="benefits"></a>
       <Benefits/>
-      <a name="about"></a>
+      <a name="sobre"></a>
       <div class="line"></div>
       <About/>
       <div class="line"></div>
-      <a name="numeros"></a>
       <numeros/>
+      <a name="planos"></a>
       <div class="line"></div>
-      <a name="plans"></a>
       <Plans/>
-      <a name="rate"></a>
-      <!-- <div class="line"></div>
-      <Rating/> -->
-      <a name="question"></a>
+      <a name="perguntas"></a>
       <div class="line"></div>
       <Questions/>
-      <a name="icon"></a>
       <div class="line"></div>
       <h1 class="tittle">Nossos <span>Clientes</span></h1>
       <div class="icons_view">
@@ -95,7 +90,20 @@ export default {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 80px;
   padding-bottom: 40px;
+} 
+@media (max-width: 1430px){
+  .icons_view,.icons_view2{
+    column-gap: 40px;
+  }
 }
+@media (max-width: 986px){
+  .icons_view,.icons_view2{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+  }
+}
+
 .line {
   margin-top: 80px;
   margin-bottom: 80px;

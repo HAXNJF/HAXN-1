@@ -10,12 +10,12 @@
         </div>
         <div class="menu">
             <p class="address"><span>HAXN Rio de Janeiro</span><br> Avenida Julio de Sá Bierrenbach alm N° 65 <br>BLC 01 SALA 101
-Jacarepagua,<br> Rio de Janeiro - RJ
-22775-028</p>
+            Jacarepagua,<br> Rio de Janeiro - RJ
+            22775-028</p>
             <p class="address"><span>HAXN Minas Gerais</span><br> Rua pedro celeste N° 240
-Cruzeiro Sul,<br> Juiz de Fora - MG
-	36030-140
-</p>
+            Cruzeiro Sul,<br> Juiz de Fora - MG
+            36030-140
+            </p>
         </div>
         <p class="developed">© 2020–2022 HAXN Empreendimentos Ltda,Todos os direitos reservados.  Desenvolvido por Kayo Sávio</p>
     </footer>
@@ -33,7 +33,8 @@ export default {
 }
 .address{
     padding: 20px;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     text-align: center;
     color: white;
     font-family: Roboto;
@@ -65,7 +66,8 @@ footer{
     height: fit-content;
 }
 .menu{
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     font-size: 16px;
     margin-top: 40px;
     display: flex;

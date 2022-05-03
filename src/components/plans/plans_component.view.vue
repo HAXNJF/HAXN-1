@@ -34,15 +34,14 @@ export default {
     row-gap: 20px;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1080px){
     .plans{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 @media (max-width: 870px){
     .plans{
         grid-template-columns: 1fr;
-        
     }
 }
 </style>

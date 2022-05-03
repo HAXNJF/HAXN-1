@@ -136,6 +136,9 @@ export default {
   .container{
     flex-direction: column;
   }
+  .icons{
+    justify-content: center;
+  }
   .tittle{
     text-align: center;
   }
