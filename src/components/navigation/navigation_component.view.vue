@@ -88,6 +88,7 @@ header{
 .lineBox{
     cursor: pointer;
     position: absolute;
+    z-index: -3;
     bottom: 0;
     width: 100%;
     height: 30px;
@@ -106,6 +107,7 @@ header{
     line-height: 32px;
     width: 100%;
     max-width: 500px;
+    text-align: center;
 }
 .headerContainer{
     display: flex;
@@ -193,16 +195,7 @@ header #menu-btn::before
     header #menu-btn{
         display: flex;
     }
-    header{
-        height: 80px;
-    }
-    .headerContainer{
-        height: 80px;
-    }
     .menu{
-        display: none;
-    }
-    .lineBox{
         display: none;
     }
 }
