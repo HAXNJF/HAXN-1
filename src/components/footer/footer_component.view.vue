@@ -12,9 +12,9 @@
             <p class="address"><span>HAXN Rio de Janeiro</span><br> Avenida Julio de Sá Bierrenbach alm N° 65 <br>BLC 01 SALA 101
             Jacarepagua,<br> Rio de Janeiro - RJ
             22775-028</p>
-            <p class="address"><span>HAXN Minas Gerais</span><br> Rua pedro celeste N° 240
-            Cruzeiro Sul,<br> Juiz de Fora - MG
-            36030-140
+            <p class="address"><span>HAXN Minas Gerais</span><br> Rua Espirito Santo N° 1115 SL 2011
+            Centro,<br> Juiz de Fora - MG
+            36016-905
             </p>
         </div>
         <p class="developed">© 2020–2022 HAXN Empreendimentos Ltda,Todos os direitos reservados.  Desenvolvido por Kayo Sávio</p>
