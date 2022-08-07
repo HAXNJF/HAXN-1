@@ -37,10 +37,7 @@
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Elaboração de peça de reequilíbrio de preço do contrato;</p>
         </div>
-        <div class="topic" >
-            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-            <p class="topicText">Comissionamento de 3.5% no êxito se ultrapassarmos o limite de faturamento;</p>
-        </div>
+        
         <!-- <div class="buttonShow">
             <button 
             v-show="!active" 

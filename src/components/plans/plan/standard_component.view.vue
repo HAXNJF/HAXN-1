@@ -33,10 +33,7 @@
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Elaboração e cadastramento de proposta comercial;</p>
         </div>
-        <div class="topic">
-            <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
-            <p class="topicText">Comissionamento de 2.5% no êxito se ultrapassarmos o limite de faturamento.</p>
-        </div>
+        
     </div>
     </div>
 </template>
