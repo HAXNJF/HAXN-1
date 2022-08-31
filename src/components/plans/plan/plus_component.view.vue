@@ -1,7 +1,7 @@
 <template>
     <div class="plan">
         <h2 class="planTittle">Plus</h2>
-        <h1 class="price">R$2.490,00</h1>
+        <h1 class="price">R$1.490,00</h1>
         <p class="planText">Limite de faturamento em contratos<br> <span style="font-weight: bold">R$ 1.000.000,00</span> ao ano.</p>
         <div class="allTopic">
         <div class="topic">
