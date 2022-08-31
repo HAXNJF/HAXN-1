@@ -38,20 +38,13 @@
             <p class="topicText">Elaboração de peça de reequilíbrio de preço do contrato;</p>
         </div>
         
-        <!-- <div class="buttonShow">
-            <button 
-            v-show="!active" 
-            @click="showMore" 
-            class="verMais">
-            ver mais
-            </button>
-            <button 
-            v-show="active" 
-            @click="showLess" 
-            class="verMais">
-            ver menos
-            </button>
-        </div> -->
+        <div class="buttonShow">
+            <div class="buttonShow">
+            <a class="verMais" :href="whatsapp">
+            <img class="iconWhats" src="@/assets/whatsapp.png" alt="whatsapp-icon">
+            Contate nos</a>
+            </div>
+        </div>
     </div>
     </div>
 </template>
@@ -61,6 +54,7 @@ export default {
     data(){
         return{
             active: false,
+            whatsapp: 'https://api.whatsapp.com/send?phone=553284873343',
         }
     },
     methods:{
@@ -146,8 +140,10 @@ export default {
     color: #FFFFFF;
 }
 .verMais{
+    text-decoration: none;
     margin-top: 20px;
-    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;

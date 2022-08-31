@@ -33,7 +33,11 @@
             <img class="pointer" src="../../../assets/Pointer.png" alt="pointer">
             <p class="topicText">Elaboração e cadastramento de proposta comercial;</p>
         </div>
-        
+        <div class="buttonShow">
+            <a class="verMais" :href="whatsapp">
+            <img class="iconWhats" src="@/assets/whatsapp.png" alt="whatsapp-icon">
+            Contate nos</a>
+        </div>
     </div>
     </div>
 </template>
@@ -43,6 +47,7 @@ export default {
     data(){
         return{
             active: false,
+            whatsapp: 'https://api.whatsapp.com/send?phone=553284873343',
         }
     },
     methods:{
@@ -128,8 +133,10 @@ export default {
     color: #FFFFFF;
 }
 .verMais{
+    text-decoration: none;
     margin-top: 20px;
-    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;

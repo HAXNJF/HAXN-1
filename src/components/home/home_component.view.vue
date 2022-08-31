@@ -12,11 +12,11 @@
         <h1 class="tittle">Multiplique<br> suas vendas<br> <span>para o governo!</span></h1>
         <p class="text">Seu departamento de licitação completo e tercerizado!</p>
         <div class="buttons">
-          <select class="selectNew" v-model="local">
+          <!-- <select class="selectNew" v-model="local">
             <option disabled value="">Escolha a unidade mais próxima</option>
             <option value="Rio de Janeiro">Rio de Janeiro</option>
             <option value="Juiz de Fora">Juiz de Fora</option>
-          </select>
+          </select> -->
           <a class="linkButton" :href="whatsapp">
             <img class="iconWhats" src="../../assets/whatsapp.png" alt="whatsapp-icon">
           Contate nos</a>
@@ -32,18 +32,18 @@ export default {
     data() {
         return {
             local: '',
-            whatsapp: '',
+            whatsapp: 'https://api.whatsapp.com/send?phone=553284873343',
     };
   },
-  watch:{
-    local(){
-      if(this.local=="Rio de Janeiro"){
-        this.whatsapp = "https://www.wppredirect.tk/go/?p=552130305567&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Especializada%20em%20licita%C3%A7%C3%B5es%20e%20Mercado%20B2B.";
-      }else{
-        this.whatsapp = "https://www.wppredirect.tk/go/?p=553230171537&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Especializada%20em%20licita%C3%A7%C3%B5es%20e%20Mercado%20B2B.";
-      }
-    }
-  },
+  // watch:{
+  //   local(){
+  //     if(this.local=="Rio de Janeiro"){
+  //       this.whatsapp = "https://www.wppredirect.tk/go/?p=552130305567&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Especializada%20em%20licita%C3%A7%C3%B5es%20e%20Mercado%20B2B.";
+  //     }else{
+  //       this.whatsapp = "https://www.wppredirect.tk/go/?p=553230171537&m=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site%20da%20HAXN.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Especializada%20em%20licita%C3%A7%C3%B5es%20e%20Mercado%20B2B.";
+  //     }
+  //   }
+  // },
 }
 </script>
 
@@ -102,7 +102,7 @@ export default {
   box-shadow: 0px 3.15551px 31.5551px rgba(231, 234, 238, 0.07);
   width: 180px;
   height: 60px;
-  border-radius: 0px 41px 41px 0px;
+  border-radius: 41px;
   text-decoration: none;
 }
 .linkButton:hover{
